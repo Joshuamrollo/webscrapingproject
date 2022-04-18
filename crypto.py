@@ -2,9 +2,8 @@ from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 from requests import TooManyRedirects
 from twilio.rest import Client
+from keys import accountSID, authToken
 
-accountSID = 'AC20d548b485d354063b38d1f69bdb16da'
-authToken = 'b91985bff0737283ce85c5693ac08bb6'
 TwilioNumber = '+17624755435'
 mycellphone = '+12816155559'
 client = Client(accountSID, authToken)
